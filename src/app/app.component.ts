@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  name: string = "";
   title = 'test';
+  theStuffIsShown: boolean = false
+
+
+  showTheStuff() {
+    this.theStuffIsShown = true;
+  }
 }

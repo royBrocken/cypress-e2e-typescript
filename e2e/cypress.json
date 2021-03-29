@@ -1,0 +1,18 @@
+{
+  "env": {
+    "apiUrl": "http://localhost:4200/"
+  },
+  "viewportWidth": 420,
+  "viewportHeight": 660,
+  
+  "fileServerFolder": ".",
+  "fixturesFolder": "./fixtures",
+  "integrationFolder": "./integration",
+  "pluginsFile": false,
+  "supportFile": "./support",
+  "video": true,
+  "videosFolder": "../dist/cypress/project-e2e/videos",
+  "screenshotsFolder": "../dist/cypress/project-e2e/screenshots",
+  "chromeWebSecurity": false,
+  "projectId": "ea87iu"
+}
